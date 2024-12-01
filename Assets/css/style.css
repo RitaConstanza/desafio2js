@@ -1,0 +1,178 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body{
+    background-color: #f0ddc6;
+}
+
+/*Primer ejercicio*/
+.dinosaurio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#dino{
+    width: 20%;
+    margin: 5rem;
+}
+
+#dino img{
+    width: 100%;
+    width: 100%;
+}
+
+/*Segundo ejercicio*/
+
+
+
+.contenedor{
+    background-color: #e9cdab;
+    border: none;
+    border-radius: 0.5%;
+    padding: 2rem;
+    margin: 4rem
+     
+}
+
+h1{
+    text-align: center;
+    text-shadow: 1px 3px 5px  rgba(7, 7, 7, 0.479);
+    padding: 2rem;
+    font-size: xx-large;
+    color: #e95555;
+}
+
+.stickers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sticker1 img{
+    width: 65%;
+    border: solid 2px #f08080;
+    border-radius: 15%;
+}
+
+.sticker2 img{
+    width: 65%;
+    border: solid 2px #f08080;
+    border-radius: 15%;
+}
+
+.sticker3 img{
+    width: 65%;
+    border: solid 2px #f08080;
+    border-radius: 15%;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    font-size: x-large;
+    padding: 5px 15px;
+    margin: 2.2rem; 
+}
+
+#input1{
+    font-size: large;
+    text-align: center;
+    padding: 5px;
+}
+
+#input2{
+    font-size: large;
+    text-align: center;
+    padding: 5px;
+}
+
+#input3{
+    font-size: large;
+    text-align: center;
+    padding: 5px;
+}
+
+.boton{
+    margin: 2rem 53rem;
+    font-size: x-large;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5%;
+    color: #e95555;
+    background-color: #e4b27656;
+    font-weight: bolder;
+}
+
+.contenedor2{
+    background-image: url(../img/password2.gif);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px rgb(97, 97, 190);
+    margin: 4rem;
+    padding: 3rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#password{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#password h2{
+    text-align: center;
+    text-shadow: 1px 3px 5px  rgba(7, 7, 7, 0.479);
+    padding: 2rem;
+    font-size: xx-large;
+    color: #ffffff;
+}
+
+.seleccionar{
+    text-align: center;
+}
+
+#primero{
+    font-size: x-large;
+}
+
+#segundo{
+    font-size: x-large;
+}
+
+#tercero{
+    font-size: x-large;
+}
+
+#btn{
+    margin: 4rem 50rem;
+    font-size: x-large;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5%;
+    color: #ffffff;
+    background-color: #e4b37631;
+    font-weight: bolder;
+}
+
+h3{
+    color: #ffffff;
+}
+
